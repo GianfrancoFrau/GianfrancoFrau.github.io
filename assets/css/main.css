@@ -65,7 +65,7 @@ a:hover {
 }
 #g-site-footer {
   min-height: 200px;
-  background: url('../img/custom_asteroids.jpg');
+  background: url('../img/footer_asteroids.jpg');
 }
 
 @media (max-width: 767px) {
