@@ -12,69 +12,13 @@ body {
 a:hover {
   text-decoration: none;
 }
-#g-home-container {
-  margin-bottom: 70px;
+#home-container {
+  margin-top: 70px;
 }
-#g-site-header {
-  width: 100%;
-  border-top: 3px solid #F6C992;
+header {
+  min-height: 325px;
+  background: url('../img/custom_asteroids.jpg');
 }
-#g-home-titles h1 {
-  font-size: 120px;
-  margin: 0;
-  padding: 0;
-  text-shadow: 2px 2px #F6C992;
-}
-#g-home-titles h2 {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-}
-#g-home-titles h2:first-child {
-  margin-top: 25px;
-}
-#g-home-titles h2 span {
-  font-weight: bold;
-}
-#g-sm-menu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-size: 25px;
-}
-#g-sm-menu li {
-  display: inline;
-}
-#g-sm-menu li:first-child:after {
-  content: "";
-  padding: 0 10px;
-}
-#g-contact-container {
-  margin-bottom: 10px;
-}
-#g-kit {
-  padding: 15px;
-  text-align: center;
-  border: 2px solid white;
-  color: white;
-  font-size: 25px;
-  display: block;
-  width: 100%;
-  position: relative;
-}
-#g-site-footer {
-  min-height: 200px;
-  background: url('../img/footer_asteroids.jpg');
-}
-
 @media (max-width: 767px) {
-  #g-home-titles h1 {
-    text-align: center;
-  }
-  #g-home-titles h2:first-child {
-    margin-top: 0;
-  }
-  #g-site-footer {
-    min-height: 150px;
-  }
+
 }

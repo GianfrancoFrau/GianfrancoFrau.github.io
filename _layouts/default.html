@@ -5,24 +5,22 @@
 
 <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ "/assets/bower_components/bootstrap/dist/css/bootstrap.min.css" | prepend: site.baseurl }}">
-<link rel="stylesheet" href="{{ "/assets/bower_components/ionicons/css/ionicons.min.css" | prepend: site.baseurl }}">
-<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ site.url }} /assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ site.url }} /assets/bower_components/ionicons/css/ionicons.min.css">
+<link rel="stylesheet" href="{{ site.url }} /assets/css/main.css">
 
 <body class="quicksand">
 
   {% include header.html %}
 
-  <div class="page-content">
-    <div class="wrap">
+  <div id="content-wrapper">
     {{ content }}
-    </div>
   </div>
 
   {% include footer.html %}
 
-  <script src="{{ "assets/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "assets/bower_components/bootstrap/dist/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "assets/js/main.js" | prepend: site.baseurl }}">
+  <script src="{{ site.url }} /assets/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="{{ site.url }} /assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="{{ site.url }} /assets/js/main.js">
 </body>
 </html>
