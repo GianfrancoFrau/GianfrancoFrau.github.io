@@ -5,22 +5,23 @@
 
 <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ site.url }} /assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="{{ site.url }} /assets/bower_components/ionicons/css/ionicons.min.css">
-<link rel="stylesheet" href="{{ site.url }} /assets/css/main.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ site.baseurl }} /assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ site.baseurl }} /assets/bower_components/ionicons/css/ionicons.min.css">
+<link rel="stylesheet" href="{{ site.baseurl }} /assets/css/main.css">
 
 <body class="quicksand">
 
   {% include header.html %}
 
-  <div id="content-wrapper">
+  <div id="content-wrapper" rel="tooltip" data-toggle="tooltip" title="test">
     {{ content }}
   </div>
 
   {% include footer.html %}
 
-  <script src="{{ site.url }} /assets/bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="{{ site.url }} /assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="{{ site.url }} /assets/js/main.js">
+  <script src="{{ site.baseurl }} /assets/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="{{ site.baseurl }} /assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="{{ site.baseurl }} /assets/js/main.js"></script>
 </body>
 </html>

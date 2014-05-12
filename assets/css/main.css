@@ -9,16 +9,9 @@ body {
 .boldroid {
   font-family: 'Droid Sans', sans-serif;
 }
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
 a:hover {
   text-decoration: none;
-}
-#home-container {
-  margin-top: 70px;
-}
-header {
-  min-height: 325px;
-  background: url('../img/custom_asteroids.jpg');
-}
-@media (max-width: 767px) {
-
 }
