@@ -95,8 +95,20 @@ a:hover {
 }
 #credits {
   display: block;
-  margin-top: 40px;
-  font-size: 20px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+#credits a {
+  display: inline-block;
+  padding: 10px;
+  color: #F4D03F;
+}
+#credits-list a {
+  color: #F4D03F; 
+}
+#credits-list a:hover,
+#credits a:hover {
+  color: #F39C12;
 }
 #credits-list {
   margin: 0;
