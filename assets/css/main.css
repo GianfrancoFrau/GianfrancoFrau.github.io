@@ -93,6 +93,13 @@ a:hover {
 #footer {
   color: white;
 }
+#licence-link {
+  color: #ddd;
+  font-size: 20px;
+}
+#licence-link a:hover {
+  color: white;
+}
 #credits {
   display: block;
   margin-top: 20px;
