@@ -66,9 +66,6 @@ a:hover {
 #home-menu li:first-child {
   border-top: 1px solid #ddd;
 }
-#home-menu li:last-child {
-  border-bottom: none;
-}
 #home-menu li a b {
   width: 30px;
   text-align: center;
@@ -84,6 +81,14 @@ a:hover {
 }
 #home-menu a:hover i {
   display: inline;
+}
+#contacts-box {
+  font-size: 24px;
+  background: rgba(255,255,255,0.8);
+}
+#contacts-box a {
+  padding: 20px;
+  display: inline-block;
 }
 #footer {
   color: white;
