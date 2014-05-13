@@ -6,6 +6,8 @@
 <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="{{ site.baseurl }} /assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="{{ site.baseurl }} /assets/bower_components/ionicons/css/ionicons.min.css">
 <link rel="stylesheet" href="{{ site.baseurl }} /assets/css/main.css">
@@ -14,8 +16,14 @@
 
   {% include header.html %}
 
-  <div id="content-wrapper" rel="tooltip" data-toggle="tooltip" title="test">
-    {{ content }}
+  <div class="container">
+  	<div class="row">
+    	<div class="col-sm-4 col-sm-offset-4">
+
+    		{{ content }}
+    	
+    	</div>
+	</div>
   </div>
 
   {% include footer.html %}
