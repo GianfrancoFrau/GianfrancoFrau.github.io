@@ -18,7 +18,7 @@ $( function() {
 					'<li><a href="http://thepatternlibrary.com/" target="_blank">ThePatternLibrary</a></li>\n' +
 					'</ul>'
 	});
-	$("#credits a").on("click", function(e) {
+	$("[href='#']").on("click", function(e) {
 		e.preventDefault();
 	})
 });
