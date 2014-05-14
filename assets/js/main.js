@@ -17,4 +17,7 @@ $( function() {
 					'<li><a href="#">Ionicons</a></li>\n'+
 					'</ul>'
 	});
+	$("#credits a").on("click", function(e) {
+		e.preventDefault();
+	})
 });
