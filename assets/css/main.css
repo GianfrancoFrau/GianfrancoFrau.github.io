@@ -115,3 +115,37 @@ a:hover {
   padding: 0;
   list-style: none;
 }
+.back-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  display: block;
+  padding: 10px 30px;
+}
+/*********************
+*   About page styles
+*********************/
+#about {
+  background: white;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+#about-header {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+#about-title {
+  margin: 0;
+  padding: 15px 0;
+  font-size: 25px;
+}
+#about-content {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+@media (max-width: 767px) {
+  .content {
+    margin-top: -120px;
+  }
+}
