@@ -123,6 +123,19 @@ a:hover {
   display: block;
   padding: 10px 30px;
 }
+.page-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  padding: 10px 30px;
+  text-align: center;
+}
+.page-btn span {
+  display: block;
+  width: 100%;
+  margin-top: -10px;
+}
 /*********************
 *   About page styles
 *********************/
