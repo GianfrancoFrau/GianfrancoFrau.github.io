@@ -17,6 +17,11 @@ a {
 a:hover {
   text-decoration: none;
 }
+.simple-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 #main-header {
   height: 147px;
   background: url('../img/header_asteroids.jpg');
@@ -107,6 +112,17 @@ a:hover {
   padding: 0;
   list-style: none;
 }
+#my-image {
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+#intro-title {
+  border-bottom: 1px solid #ddd;
+}
+/*********************
+*   Page styles
+*********************/
 .back-btn {
   position: absolute;
   top: 0;
@@ -128,9 +144,6 @@ a:hover {
   width: 100%;
   margin-top: -5px;
 }
-/*********************
-*   Page styles
-*********************/
 #page-header {
   border-bottom: 1px solid #ddd;
   background: rgba(255,255,255,0.9);
