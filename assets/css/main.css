@@ -86,6 +86,7 @@ a:hover {
 }
 #footer {
   color: white;
+  padding-bottom: 20px;
 }
 #licence-link {
   color: #ddd;
@@ -93,15 +94,6 @@ a:hover {
 }
 #licence-link a:hover {
   color: white;
-}
-#credits {
-  display: block;
-  font-size: 25px;
-}
-#credits a {
-  display: inline-block;
-  padding: 10px;
-  color: #F4D03F;
 }
 #credits-list a {
   color: #F4D03F; 

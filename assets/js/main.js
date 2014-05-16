@@ -5,7 +5,7 @@ $( function() {
 	// Set email
 	document.getElementById("cnt").href = "mailto:gianfranco@glaamy.com";
 	// Enables credits popover
-	$("#credits a").popover({
+	$("#credits").popover({
 		html: true,
 		placement: 'top',
 		container: 'body',
