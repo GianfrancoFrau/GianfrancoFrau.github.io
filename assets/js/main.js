@@ -1,8 +1,6 @@
-/**
-*	JQuery controller
-*/
+// Sets email address
+document.getElementById("cnt").href = "mailto:gianfranco@glaamy.com";
+// Jquery document ready
 $( function() {
-	// Set email
-	document.getElementById("cnt").href = "mailto:gianfranco@glaamy.com";
-
+	console.log("JQ Ready");
 });
