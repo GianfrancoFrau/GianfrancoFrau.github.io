@@ -90,9 +90,6 @@ a:hover {
 #home-menu a:hover i {
   display: inline;
 }
-#my-image {
-  margin-bottom: 15px;
-}
 #about-intro {
   line-height: 1.4em;
 }
@@ -130,6 +127,21 @@ a:hover {
   border-bottom: 1px solid #ddd;
   background: white;
 }
+#skills {
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+.skill {
+  border: 2px solid white;
+  background: #34495e;
+  color: white;
+  font-size: 20px;
+}
+.skill a {
+  color: white;
+  display: block;
+  padding: 8px;
+}
 .page-content-title {
   margin: 0;
   padding: 20px 0;
@@ -156,10 +168,10 @@ a:hover {
   padding: 20px;
   display: inline-block;
 }
-#credits-list li {
+.credits-list li {
   margin-bottom: 5px;
 }
-#credits-list a {
+.credits-list a {
   padding-bottom: 3px;
   border-bottom: 1px solid #34495e;
 }
