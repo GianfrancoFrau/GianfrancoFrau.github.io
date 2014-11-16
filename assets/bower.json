@@ -1,0 +1,21 @@
+{
+  "name": "assets",
+  "version": "0.0.0",
+  "homepage": "https://github.com/GianfrancoFrau/GianfrancoFrau.github.io",
+  "authors": [
+    "GianfrancoFrau <gian.frau@hotmail.it>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "ionicons": "~1.5.2"
+  }
+}
