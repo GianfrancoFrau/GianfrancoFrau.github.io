@@ -18,6 +18,9 @@ body {
 .block-element {
   display: block;
 }
+.glaamy {
+  color: #DA517A;
+}
 .html5-color {
   color: #E34C26;
 }
@@ -44,8 +47,14 @@ body {
   color: #3498db;
   font-weight: bold;
 }
+.color-wet-asphalt {
+  color: #34495e;
+}
+.color-midnight-blue {
+  color: #2c3e50;
+}
 .underline {
-  padding-bottom: 5px;
+  padding-bottom: 0.4em;
   border-bottom: 2px solid #34495e;
 }
 
@@ -53,12 +62,14 @@ body {
 #home-container {
   margin-top: 10%;
 }
-#main-title {
-  color: #2c3e50;
-}
 #main-subtitle {
   font-size: 2.5em;
-  color: #34495e;
+}
+#currently-working {
+  font-size: 2rem;
+}
+#currently-working span {
+  font-weight: bold;
 }
 #power-ups-list-container {
   margin-top: 50px;
@@ -88,4 +99,46 @@ body {
   display: inline;
 }
 
+#home-social-list li {
+  display: inline;
+}
+
 .footer {}
+
+/* MEDIA QUERIES */
+/* 
+  All devices max-width = 360px 
+  - adjust titles font size
+*/
+@media screen and (max-width: 360px) {
+  #main-title {
+    font-size: 2.5rem;
+  }
+  #main-subtitle {
+    font-size: 1.5rem;
+  }
+  #currently-working {
+    font-size: 1.3rem;
+  }
+}
+/*
+  All devices max-width = 449px
+  - full-width home boxes
+*/
+@media screen and (max-width: 449px) {
+  /* overrides materialized.css .container, .row */
+  #home-container {
+    padding: 0;
+    width: 100%;
+  }
+  #home-container .row {
+    margin: 0;
+  }
+  #power-ups-list-container {
+    border-radius: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+  }
+}
