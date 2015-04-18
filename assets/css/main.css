@@ -1,10 +1,13 @@
 body {
-  height: 100vh;
   position: relative;
-  background-image: '../img/geometry2.png';
+  background-image: url('../img/geometry2.png');
 }
+/* CLASSES */
 .open-sans {
   font-family: 'Open Sans', sans-serif;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
 }
 .waves-peter-river {
   background-color: #3498db;
@@ -33,12 +36,33 @@ body {
 .ti-color {
   color: #be0318;
 }
+.web {
+  color: #2ecc71;
+  font-weight: bold;
+}
+.mobile {
+  color: #3498db;
+  font-weight: bold;
+}
+.underline {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #34495e;
+}
 
+/* LAYOUT */
+#home-container {
+  margin-top: 10%;
+}
+#main-subtitle {
+  font-size: 2.5em;
+  color: #34495e;
+}
 #power-ups-list-container {
   margin-top: 50px;
   position: relative;
   border: 1px solid #ddd;
   border-radius: 50px;
+  background: rgba(255, 255, 255, 0.6);
 }
 #power-ups-icon {
   position: absolute;
@@ -47,7 +71,7 @@ body {
   top: -2rem;
   width: 4rem;
   height: 4rem;
-  background: white;
+  background: rgba(255, 255, 255, 1);
   border: 1px solid #ddd;
   border-radius: 2rem;
 }
