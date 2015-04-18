@@ -53,6 +53,9 @@ body {
 #home-container {
   margin-top: 10%;
 }
+#main-title {
+  color: #2c3e50;
+}
 #main-subtitle {
   font-size: 2.5em;
   color: #34495e;
