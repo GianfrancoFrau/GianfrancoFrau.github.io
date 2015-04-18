@@ -1,6 +1,7 @@
 body {
   height: 100vh;
   position: relative;
+  background-image: '../img/geometry2.png';
 }
 .open-sans {
   font-family: 'Open Sans', sans-serif;
