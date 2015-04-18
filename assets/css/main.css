@@ -2,6 +2,9 @@ body {
   height: 100vh;
   position: relative;
 }
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
 .waves-peter-river {
   background-color: #3498db;
 }
@@ -10,6 +13,24 @@ body {
 }
 .block-element {
   display: block;
+}
+.html5-color {
+  color: #E34C26;
+}
+.css3-color {
+  color: #0059b0;
+}
+.js-color {
+  color: #edd832;
+}
+.ion-color {
+  color: #2d61e5;
+}
+.ng-color {
+  color: #d91a2b;
+}
+.ti-color {
+  color: #be0318;
 }
 
 #power-ups-list-container {
