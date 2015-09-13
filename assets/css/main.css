@@ -1,7 +1,7 @@
 body {
-  position: relative;
   background-image: url('../img/geometry2.png');
 }
+a:hover { text-decoration: none; }
 /* CLASSES */
 .open-sans {
   font-family: 'Open Sans', sans-serif;
@@ -12,32 +12,8 @@ body {
 .waves-peter-river {
   background-color: #3498db;
 }
-.text-center {
-  text-align: center;
-}
-.block-element {
-  display: block;
-}
 .glaamy {
   color: #DA517A;
-}
-.html5-color {
-  color: #E34C26;
-}
-.css3-color {
-  color: #0059b0;
-}
-.js-color {
-  color: #edd832;
-}
-.ion-color {
-  color: #2d61e5;
-}
-.ng-color {
-  color: #d91a2b;
-}
-.ti-color {
-  color: #be0318;
 }
 .web {
   color: #2ecc71;
@@ -55,100 +31,15 @@ body {
 }
 
 /* LAYOUT */
-#home-container {
-  margin-top: 10%;
+#container {
+  margin-top: 150px;
 }
-#main-subtitle {
-  font-size: 2.5em;
+.title {
+  font-size: 60px;
 }
-#currently-working {
-  font-size: 2rem;
+#subtitle {
+  margin: 20px 0;
 }
-#currently-working span {
-  font-weight: bold;
-}
-#power-ups-list-container {
-  margin-top: 50px;
-  position: relative;
-  border: 1px solid #ddd;
-  border-radius: 50px;
-  background: rgba(255, 255, 255, 0.6);
-}
-#power-ups-icon {
-  position: absolute;
-  left: 50%;
-  margin-left: -2rem;
-  top: -2rem;
-  width: 4rem;
-  height: 4rem;
-  background: rgba(255, 255, 255, 1);
-  border: 1px solid #ddd;
-  border-radius: 2rem;
-}
-#power-ups-icon i { width: 100%; }
-
-#power-ups-list {
-  margin-top: 2.5rem;
-  margin-bottom: 1.5rem;
-}
-.power-ups-list-item {
-  display: inline;
-}
-
-#home-social-list li {
-  display: inline;
-}
-
-#home-footer {
-  color: #95a5a6;
-}
-
-.footer {}
-
-/* MEDIA QUERIES */
-/* TARGETS extra-small devices (max-width: 320px) */
-@media screen and (max-width: 320px) {
-  /* hides an element */
-  .hidden-xs { display: none; }
-}
-
-
-
-/* 
-  All devices max-width = 384px
-  iphone4 = 320x480
-  - adjust titles font size
-*/
-/*@media screen and (max-width: 320px) {
-  #main-title {
-    font-size: 2.2rem;
-  }
-  #main-subtitle {
-    font-size: 1.1rem;
-  }
-  #currently-working {
-    font-size: 1.3rem;
-  }
-}*/
-
-/*
-  All devices max-width = 449px
-  - full-width home boxes
-*/
-@media screen and (max-width: 449px) {
-  /* overrides materialized.css .container, .row */
-  #home-container {
-    padding: 0;
-    width: 100%;
-  }
-  #home-container .row {
-    margin: 0;
-  }
-  #power-ups-list-container {
-    border-radius: 0;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    border-left: 0;
-    border-right: 0;
-  }
+#social-list i {
+  font-size: 28px;
 }
