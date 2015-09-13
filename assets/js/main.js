@@ -1,6 +1,2 @@
-// $( function() {
-// 	// Sets email address
-// 	$("#cnt").attr('href', 'mailto:gian.frau@hotmail.it');
-// });
-
-// document.getElementById('cnt');
+document.getElementById('cnt').setAttribute('href', 'mailto:gian.frau@hotmail.it');
+console.log('.');
