@@ -30,12 +30,22 @@ a:hover { text-decoration: none; }
   color: #2c3e50;
 }
 
+
+
 /* LAYOUT */
 #container {
-  margin-top: 150px;
+  margin-top: 80px;
+}
+@media (min-width: 768px) {
+  #container {
+    margin-top: 150px;
+  }
 }
 .title {
   font-size: 60px;
+}
+.title.smaller {
+  font-size: 50px;
 }
 #subtitle {
   margin: 20px 0;
