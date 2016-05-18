@@ -5,3 +5,8 @@ angular
 .run(function(){
 	console.log('bootstrap');
 })
+
+.controller('appCtrl', function(){
+	var ctrl = this;
+
+})
