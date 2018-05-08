@@ -7,11 +7,11 @@ var gulp = require('gulp')
 	, clean = require('gulp-clean')
 	, paths = {
 			js: ['./src/js/**/*.js'],
-			css: ['./src/css/**/*.css'],
+			css: ['./src/**/*.css'],
 			img: ['./src/img/**/*.png','./src/img/**/*.jpg']
 		}
  
-gulp.task('default', ['clean', 'img', 'css', 'js', 'server', 'watch']);
+gulp.task('default', ['img', 'css', 'js', 'server', 'watch']);
 
 gulp.task('server', function() {
   gulp.src('.')
@@ -40,7 +40,7 @@ gulp.task('css', function(done) {
 
 gulp.task('js', function() {
 	gulp.src(paths.js)
-			.pipe(concat('./app/app.js'))
+			.pipe(concat('app/app.js'))
 			// .pipi(uglify())
 			.pipe(gulp.dest('.'));
 })
@@ -49,8 +49,3 @@ gulp.task('img', function(){
 	gulp.src(paths.img)
 			.pipe(gulp.dest('app/img/'));
 })
-
-gulp.task('clean', function() {
- return gulp.src('dist/')
- .pipe(clean());
-});

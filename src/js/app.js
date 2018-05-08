@@ -8,5 +8,5 @@ angular
 
 .controller('appCtrl', function(){
 	var ctrl = this;
-
+	ctrl.sections = ["section1", "section2","section3","sections4"];
 })
