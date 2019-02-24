@@ -15,12 +15,13 @@ a:hover { text-decoration: none; }
 .glaamy {
   color: #DA517A;
 }
+.vivocha,
+.vivocha:hover {
+	color: #EE6019;
+	font-weight: bold;
+}
 .web {
   color: #2ecc71;
-  font-weight: bold;
-}
-.mobile {
-  color: #3498db;
   font-weight: bold;
 }
 .color-wet-asphalt {
@@ -45,11 +46,22 @@ a:hover { text-decoration: none; }
   font-size: 60px;
 }
 .title.smaller {
+	text-align: left;
   font-size: 50px;
 }
-#subtitle {
+.subtitle {
   margin: 20px 0;
 }
-#social-list i {
+.subtitle.smaller {
+	font-size: 26px;
+	text-align: left;
+}
+.work {}
+.work.smaller {
+	text-align: left;
+	font-size: 20px;
+	margin-bottom: 80px;
+}
+.social-list i {
   font-size: 28px;
 }
