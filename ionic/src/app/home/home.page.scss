@@ -1,0 +1,28 @@
+.grid {
+  padding: 0;
+
+  .row {
+    height: 33.33333vh;
+    padding: 0;
+
+    &:nth-child(1) {
+      background: var(--ion-color-first);
+    }
+    &:nth-child(2) {
+      background: var(--ion-color-second);
+    }
+    &:nth-child(3) {
+      background: var(--ion-color-third);
+    }
+    .col {
+      padding-left: 20px;
+
+      .text-big {
+        font-size: 3rem;
+      }
+      .block {
+        display: block;
+      }
+    }
+  }
+}
