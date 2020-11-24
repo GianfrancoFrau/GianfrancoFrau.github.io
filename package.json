@@ -1,0 +1,28 @@
+{
+  "name": "gianfrancofrau.github.io",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.html",
+  "scripts": {
+    "tailwind:update-css": "tailwind build -o ./css/tailwind.css",
+    "tailwind:build": "rm ./css/style.css && tailwind build ./css/main.css -o ./css/style.css",
+    "tailwind:build:prod": "NODE_ENV=production && npm run tailwind:build",
+    "serve": "npx http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GianfrancoFrau/GianfrancoFrau.github.io.git"
+  },
+  "author": "Gianfranco Frau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GianfrancoFrau/GianfrancoFrau.github.io/issues"
+  },
+  "homepage": "https://github.com/GianfrancoFrau/GianfrancoFrau.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss-cli": "^0.1.2"
+  }
+}
